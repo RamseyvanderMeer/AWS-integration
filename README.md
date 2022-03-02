@@ -21,10 +21,6 @@ phases:
       - echo installing nodejs...
       - curl -sL https://deb.nodesource.com/setup_14.x | bash -
       - apt-get install -y nodejs
-      # - echo installing yarn...
-      # - curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-      # - echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-      # - apt install --no-install-recommends yarn
   pre_build:
     commands:
       - echo installing dependencies...
@@ -33,7 +29,6 @@ phases:
       - npm install
   build:
     commands:
-      # - echo testing...
       - echo building...
       - ng build --prod
 artifacts:
