@@ -1,7 +1,9 @@
 # AWS-integration
 Description of how to integrate an Angular (or any other) web app with AWS CI/CD pipelines
 
-## Amplify 
+## before starting
+
+
 ### Create a new web app or use an existing one
 For this eample I will be using a Tic Tac Toe app I have created previously with:
 ```sh
@@ -38,6 +40,7 @@ artifacts:
   base-directory: "dist/aws-test-app*"
 ```
 
+## Amplify 
 ### Open [Amplify](https://console.aws.amazon.com/amplify/home)
 - Click "get started"
 - Click "get started" again under Amplify Hosting
