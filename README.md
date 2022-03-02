@@ -9,6 +9,7 @@ ng create __app-name__
 ```
 # Open [Amplify](https://console.aws.amazon.com/amplify/home)
 click "get started"
+
 Click "get started" again under Amplify Hosting
 
 
