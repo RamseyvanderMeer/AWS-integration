@@ -5,13 +5,13 @@ Description of how to integrate an Angular (or any other) web app with AWS CI/CD
 
 
 ### Create a new web app or use an existing one
-For this eample I will be using a Tic Tac Toe app I have created previously with:
+For this example I will be using a Tic Tac Toe app I have created previously with:
 ```sh
 ng create __app-name__ 
 ```
 ### add a yaml file
 
-before deployign yiour app you need a buildspec.yaml file in your root directory
+before deploying your app you need a buildspec.yaml file in your root directory
 
 It should look something like below
 ```sh
@@ -47,6 +47,9 @@ artifacts:
 - Select Repository and branch ![connect](/connect-github-test-branch.png)
 - configure build options (.yaml file we created earlier) ![yaml](![connect](/configure-build-settings-web.png)
 - save and depoly ![deploy](/finish-app-settings-deploy.png)
+
+### that's it! 
+after this feel free to configure other settings in the App management console like adding a testing enviroment, adding a costom domain or adding tests. 
 
 
 
