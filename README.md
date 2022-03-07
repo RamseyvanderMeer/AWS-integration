@@ -42,10 +42,9 @@ artifacts:
 
 ## Amplify 
 ### Open [Amplify](https://console.aws.amazon.com/amplify/home)
-- Click "get started"
-- Click "get started" again under Amplify Hosting ![get started](/amplify-get-start-app.png)
+- Click "get started" under Amplify Hosting ![get started](/amplify-get-start-app.png)
 - Connect your git repo 
-- Select Repository and branch
+- Select Repository and branch ![connect](/connect-github-test-branch.png)
 - 
 
 
