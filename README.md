@@ -45,6 +45,7 @@ artifacts:
 - Click "get started" under Amplify Hosting ![get started](/amplify-get-start-app.png)
 - Connect your git repo 
 - Select Repository and branch ![connect](/connect-github-test-branch.png)
+- configure build options (.yaml file we created earlier) ![yaml](![connect](/configure-build-settings-web.png)
 - 
 
 
